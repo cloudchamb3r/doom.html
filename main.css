@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#app {
+    overflow: hidden;
+}
+
+.ceil {
+    background-color: skyblue;
+    width: 100vw;
+    height: 50vh;
+}
+
+.floor {
+    background-color: burlywood;
+    width: 100vw;
+    height: 50vh;
+}
+.wall {
+    position: absolute;
+    width: 1px;
+    background-color: black;
+}
+
+.minimap {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    right: 0px;
+    top: 0px;
+    background-color: whitesmoke;
+}
+
+.minimap-wall {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: blue;
+}
+.minimap-player { 
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: green;
+}
+
+.minimap-ray {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: red;
+}
